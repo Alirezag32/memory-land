@@ -1,0 +1,41 @@
+* {
+          font-family: "yecan",sans-serif;
+          box-sizing: border-box;
+}
+
+
+
+
+@font-face {
+          font-family: "yecan";
+          src: url("../fonts/yekan-font/Yekan.woff") format('woff'),
+       
+        }
+
+
+
+.Register {
+  direction: rtl;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          text-align: center;
+
+}
+
+form {
+          
+          box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1) ;
+          
+          
+         
+}
+
+
+label {
+          font-size: large;
+}
+.pRegister{
+  color: red;
+}

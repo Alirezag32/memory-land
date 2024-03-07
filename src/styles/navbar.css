@@ -1,0 +1,91 @@
+.nav-continer {
+  
+  box-shadow:0 2px 8px 0 rgba(0,0,0,0.1) ;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff; /* پس زمینه به سفید تغییر یافت */
+  color: #333; /* رنگ متن به مشکی تغییر یافت */
+}
+
+.nav-right  {
+  
+  
+  display: flex;
+  align-items: center;
+  
+  
+}
+.nav-left {
+          display: flex;
+          justify-content: space-around;
+          
+}
+.nav-left a{
+  text-decoration: none;
+  margin-right: 10px;
+  color: #333; 
+  
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+.navbar-logo {
+          
+          height: 100px;
+          width: 100px;
+}
+.continer-login-button {
+          border-radius: 10px;
+          vertical-align: super;
+          padding: 10px;
+          border: 2px solid #ccc;
+}
+
+.shoppingCart-icon a {
+          font-size: 24px;
+
+}
+@media screen and (max-width: 580px) {
+  .nav-right {
+          flex-direction: column;
+  align-content: space-between;
+  }
+.continer-login-button a {
+          display: none;
+}
+
+}
+@media screen and (max-width: 994px) {
+  .nav-buttom {
+    display: none;
+  }
+}
+
+.nav-buttom {
+  
+  
+  margin-right:17% ;
+  
+}
+
+.nav-buttom div {
+  cursor: pointer;
+}
